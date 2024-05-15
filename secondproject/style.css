@@ -1,0 +1,24 @@
+
+.main{
+  display: 20px;
+}
+.box
+{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: aqua;
+
+  margin: 20px;
+  
+}
+.side
+{
+  display: inline-block;
+  list-style-type:none;
+}
+img:hover
+{
+  transform: translate(100px);
+  
+}

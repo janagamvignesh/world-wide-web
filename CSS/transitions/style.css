@@ -1,0 +1,64 @@
+.main{
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    gap: 20px;
+
+}
+.box
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid white;
+    animation-name: vignesh;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes vignesh{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    20%{
+        top: 100px;
+        left: 100px;
+        background-color: blue;
+        
+    }
+    40%{
+        top: 100px;
+        left: 200px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+    60%{
+        top: 100px;
+        left: 200px;
+        background-color: green;
+        border-radius: 30%;
+    }
+    80%{
+        top:0px;
+               left:400px;
+               border-radius:50%;
+               background-color: tomato;
+            }
+            100%{
+                top:400px;
+                left:400px;
+            
+                 background-color: red;
+              }
+}   
+
+
+
+
+}
+ 

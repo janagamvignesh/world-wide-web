@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+</head>
+<h1>A Sample from validation</h1>
+<form action="main.py">
+    <div>
+        <label for="uname">Name</label>
+        <input type="text" name="uname" id="uname" required>
+
+    </div>
+    <br>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" pattern="[A-Za-z0-9]+@[A-Za-z0-9]+\.[a-Z]$">
+    </div>
+    <br>
+    <div>
+        <label for="pwd">password</label>
+        <input type="password" name="password" id="pwd" minlength="6" maxlength="12">
+    </div>
+    <br>
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" maxlength="25">
+    </div>
+    <br>
+    <div>
+        
+        <button>
+           
+            submit
+        </button>
+    </div>
+</form>
+<body>
+    
+</body>
+</html>

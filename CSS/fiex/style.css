@@ -1,0 +1,23 @@
+
+.main{
+    display: ;
+   gap: 10px;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+   align-content: start;
+    border: 1px solid black;
+}
+
+.box
+{
+    height: 50px;
+    width: 100px;
+  
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+}
+.third{
+order:-1;
+}

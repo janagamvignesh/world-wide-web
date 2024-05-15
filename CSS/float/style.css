@@ -1,0 +1,52 @@
+*/*{
+    box-sizing: border-box;
+}
+.image{
+    float: left;
+}
+.banner{
+    width: 100%;
+    padding: 50px;
+}
+p
+{
+    clear: both;
+}
+.box{
+    width: 50%;
+    height: auto;
+    float: left;
+    background-color: red;
+}
+.box img
+{
+    border-radius: 500px;
+}
+.main
+{
+    border: 10px;
+}*/
+*{
+    box-sizing: border-box;
+}
+.image{
+    float:right;
+}
+.banner{
+    width: 100%;
+    padding: 50px;
+}
+p
+{
+    clear: both;
+}
+.box{
+    width: 50%;
+    height:auto;
+    float:left;
+    
+}
+.box img
+{
+    border-radius: 50%;
+}

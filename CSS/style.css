@@ -1,0 +1,47 @@
+p{
+  color: green;
+}
+
+  h1{
+    background-color: red;
+    align-items: 20px;
+    color: white;
+
+
+  }
+  button{
+    background-color: green;
+    color: white;
+    padding: 100px;
+    border-radius: 50px;
+    border: 100px;
+    
+
+  }
+  h2
+  {
+    background-color: aqua;
+    color: blue;
+    padding: 20px 40px 60px 80px;
+    margin left: 50px;
+  }
+  header
+  {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  .main
+  {
+  }
+  .box
+  {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+    display: none;
+  }
+  
+  }
+  
